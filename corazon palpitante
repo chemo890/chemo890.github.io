@@ -1,0 +1,44 @@
+<link>.corazon</link> {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+<link>.corazon:before</link>,
+<link>.corazon:after</link> {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50px 50px 0 0;
+}
+
+<link>.corazon:before</link> {
+  left: 50px;
+  border-radius: 50px 50px 0 0;
+}
+
+<link>.corazon-palpitante</link> {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.7);
+  animation: palpitante 1s infinite;
+}
+
+@keyframes palpitante {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
