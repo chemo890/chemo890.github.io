@@ -1,3 +1,6 @@
+<div class="corazon">
+  <div class="corazon-palpitante"></div>
+</div>
 <link>.corazon</link> {
   position: relative;
   width: 100px;
